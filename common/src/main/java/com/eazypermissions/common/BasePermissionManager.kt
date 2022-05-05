@@ -32,7 +32,7 @@ abstract class BasePermissionManager : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        retainInstance = true
+        retainInstance = false
     }
 
     override fun onRequestPermissionsResult(
